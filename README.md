@@ -61,13 +61,15 @@ Desde **n8n 1.0+** (incluyendo la versión **1.15.1**), este método fue **depre
 ### Flujo de Autenticación Actual
 
 1. **Navegador** → `http://localhost:5678`
-2. **N8N carga** → Pantalla de configuración inicial (si es primera vez)
-3. **Owner Account** → Configuración **obligatoria** del administrador principal:
+<img width="980" height="925" alt="image" src="https://github.com/user-attachments/assets/7241f545-59de-4ded-a160-92a19ccde498" />
+
+3. **N8N carga** → Pantalla de configuración inicial (si es primera vez)
+4. **Owner Account** → Configuración **obligatoria** del administrador principal:
    - Email
    - Nombre
    - Apellido
    - Contraseña
-4. **N8N Dashboard** → Acceso completo a la aplicación
+5. **N8N Dashboard** → Acceso completo a la aplicación
 
 ## Acceso a la Aplicación
 
@@ -82,14 +84,16 @@ docker-compose up -d
    - Apellido
    - Contraseña
 
-
+<img width="980" height="925" alt="image" src="https://github.com/user-attachments/assets/7241f545-59de-4ded-a160-92a19ccde498" />
 
 3. **Accesos posteriores**: Login con las credenciales del Owner Account
 
+<img width="921" height="645" alt="image" src="https://github.com/user-attachments/assets/fab93ac7-5b23-46c0-b0d4-b2bb21642db4" />
 
 
 4. **Dashboard inicial n8n**
 
+<img width="983" height="847" alt="image" src="https://github.com/user-attachments/assets/551cfb14-da71-44c8-9685-96dfaa7eeda3" />
 
 
 ## Comandos de Uso
