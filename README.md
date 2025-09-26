@@ -140,3 +140,16 @@ docker-compose restart
 - **Producción**: Considerar autenticación más robusta (OAuth, SSO)
 - **Red**: Los servicios se comunican a través de `n8n_network`
 
+## Conclusiones
+
+- **Despliegue completo y seguro**:
+La configuración mediante Docker Compose permite levantar de manera consistente y reproducible la instancia de N8N junto con PostgreSQL, asegurando persistencia de datos y aislamiento de servicios. Esto facilita tanto el desarrollo como la puesta en producción.
+
+- **Seguridad en credenciales**:
+Todas las contraseñas se generan mediante un generador seguro, garantizando que no se utilicen contraseñas débiles. Además, se enfatiza la importancia de no exponer el archivo .env en repositorios públicos.
+
+- **Persistencia de datos**:
+Los datos de N8N y PostgreSQL se almacenan en volúmenes dedicados (n8n_data/ y postgres_n8n_data/), lo que asegura que la información sobreviva a reinicios o actualizaciones de contenedores.
+
+- **Facilidad de operación**:
+La inclusión de comandos claros para iniciar, detener, reiniciar y monitorear los servicios (docker-compose up, down, restart, logs) simplifica la administración diaria de la plataforma.
