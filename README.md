@@ -21,9 +21,6 @@ Todas las contraseñas del archivo `.env` fueron generadas usando un generador d
 ```
 ├── docker-compose.yml     # Configuración de servicios Docker
 ├── .env                   # Variables de entorno (credenciales)
-├── .gitignore            # Archivos excluidos del control de versiones
-├── n8n_data/             # Datos persistentes de N8N
-├── postgres_n8n_data/    # Datos persistentes de PostgreSQL
 └── README.md             # Este archivo
 ```
 
